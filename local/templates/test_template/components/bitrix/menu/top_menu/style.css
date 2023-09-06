@@ -1,0 +1,49 @@
+/* Left menu*/
+.top-menu
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+  position: relative;  /*IE bug*/
+  font-size: 10px;
+  color: #666666;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.top-menu li
+{
+	padding: 10px 16px;
+	background:#F5F5F5 url(images/left_menu_bg.gif) top repeat-x;
+}
+
+.top-menu li a
+{
+	font-size:100%;
+	color:#BC262C;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.top-menu li a:visited
+{
+	color:#BC262C;
+}
+
+.top-menu li a:hover
+{
+	color:#BC262C;
+}
+
+
+.top-menu li a.selected:link,
+.top-menu li a.selected:visited,
+.top-menu li a.selected:active,
+.top-menu li a.selected:hover
+{
+	color:#FC8D3D;
+}
+
+
+
