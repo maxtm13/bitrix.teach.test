@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Главная", 
+		SITE_DIR."/glavnaya.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Профиль", 
+		SITE_DIR."/profile/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контент", 
+		SITE_DIR."", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Магазин", 
+		SITE_DIR."", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Общение", 
+		SITE_DIR."", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Социальная сеть", 
+		SITE_DIR."", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Типовые примеры", 
+		SITE_DIR."", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"PHP", 
+		SITE_DIR."", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
