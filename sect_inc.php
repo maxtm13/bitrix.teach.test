@@ -1,6 +1,6 @@
 <?$APPLICATION->IncludeComponent(
 	"bitrix:photogallery.detail.list.ex", 
-	"template1", 
+	"templ_gal", 
 	array(
 		"ADDITIONAL_SIGHTS" => array(
 		),
@@ -28,7 +28,7 @@
 		"IBLOCK_TYPE" => "content",
 		"MAX_VOTE" => "5",
 		"NAME_TEMPLATE" => "#NOBR##LAST_NAME# #NAME##/NOBR#",
-		"PAGE_ELEMENTS" => "1",
+		"PAGE_ELEMENTS" => "2",
 		"PAGE_NAVIGATION_TEMPLATE" => "",
 		"PATH_TO_USER" => "/company/personal/user/#USER_ID#",
 		"PICTURES_SIGHT" => "real",
@@ -59,7 +59,7 @@
 			4 => "5",
 			5 => "",
 		),
-		"COMPONENT_TEMPLATE" => "template1"
+		"COMPONENT_TEMPLATE" => "templ_gal"
 	),
 	false
 );?>
